@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
+  <title id="title">FSNABAJURA - Neon Product Command Center</title>
+  <desc id="desc">Animated neon interface for a product engineer building mobile, realtime, and 3D products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset=".48" stop-color="#071426"/>
+      <stop offset="1" stop-color="#12072b"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset=".48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#E0F2FE"/>
+      <stop offset=".18" stop-color="#00E5FF"/>
+      <stop offset=".58" stop-color="#8B5CF6" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#050816" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#38BDF8" stroke-opacity=".08"/>
+      <circle cx="0" cy="0" r="1" fill="#8B5CF6" fill-opacity=".28"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1278" height="428" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="430" fill="url(#bg)"/>
+    <rect width="1280" height="430" fill="url(#grid)"/>
+    <ellipse cx="1000" cy="210" rx="270" ry="250" fill="url(#core)" opacity=".24">
+      <animate attributeName="opacity" values=".16;.32;.16" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <rect x="0" y="-80" width="1280" height="76" fill="url(#neon)" opacity=".09">
+      <animate attributeName="y" values="-80;510" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M36 78H1244M36 350H1244M78 36V394M1202 36V394" fill="none" stroke="url(#neon)" stroke-opacity=".4"/>
+    <path d="M78 78H730" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+    <path d="M78 350H540" stroke="#00E5FF" stroke-opacity=".45" stroke-dasharray="4 12">
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="5s" repeatCount="indefinite"/>
+    </path>
+
+    <g transform="translate(1000 214)" fill="none" filter="url(#glow)">
+      <circle r="126" stroke="#00E5FF" stroke-opacity=".26" stroke-width="2" stroke-dasharray="18 12">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="92" stroke="#8B5CF6" stroke-opacity=".55" stroke-width="2" stroke-dasharray="8 14">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="56" stroke="url(#neon)" stroke-width="3"/>
+      <path d="M-34-34H7V7H-34ZM7 7H48V48H7ZM-34 7H7V48H-34Z" stroke="#E0F2FE" stroke-width="5"/>
+      <circle r="10" fill="#00E5FF" stroke="none">
+        <animate attributeName="r" values="7;12;7" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="2">
+      <text x="94" y="66" fill="#67E8F9" font-size="12">COMMAND_NODE / FSNABAJURA / 2026</text>
+      <circle cx="1070" cy="62" r="5" fill="#22C55E" filter="url(#glow)">
+        <animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1085" y="66" fill="#22C55E" font-size="12">ONLINE</text>
+      <text x="94" y="166" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="3">FSNABAJURA</text>
+      <text x="98" y="208" fill="url(#neon)" font-size="18" font-weight="700" letter-spacing="5">PRODUCT ENGINEER / INDIE MAKER</text>
+      <rect x="98" y="232" width="28" height="4" rx="2" fill="#00E5FF" filter="url(#glow)"/>
+      <text x="98" y="275" fill="#CBD5E1" font-size="20" letter-spacing=".8">BUILDING MOBILE, REALTIME</text>
+      <text x="98" y="307" fill="#CBD5E1" font-size="20" letter-spacing=".8">AND INTERACTIVE 3D WORLDS.</text>
+      <text x="94" y="380" fill="#64748B" font-size="12">SEOUL / SOUTH KOREA</text>
+      <text x="1052" y="380" fill="#64748B" font-size="12">SHIP / ITERATE / REPEAT</text>
+    </g>
+
+    <g fill="#00E5FF" filter="url(#glow)">
+      <circle cx="760" cy="78" r="3"><animate attributeName="cx" values="760;1195;760" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="78" cy="350" r="3"><animate attributeName="cx" values="78;540;78" dur="6s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="428" rx="22" fill="none" stroke="url(#neon)" stroke-opacity=".7" stroke-width="2"/>
+</svg>
