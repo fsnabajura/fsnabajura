@@ -1,62 +1,72 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="FSNABAJURA — Product Engineer and Indie Maker" src="./assets/hero-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-neon.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-neon.svg">
+  <img alt="FSNABAJURA neon product command center" src="./assets/hero-neon.svg" width="100%">
+</picture>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SYSTEM-ONLINE-00E5FF?style=for-the-badge&labelColor=050816" alt="System online">
+  <img src="https://img.shields.io/badge/BASE-SEOUL-8B5CF6?style=for-the-badge&labelColor=050816" alt="Based in Seoul">
+  <img src="https://img.shields.io/badge/STATUS-SHIPPING-22C55E?style=for-the-badge&labelColor=050816" alt="Shipping products">
+</p>
+
+<img alt="Profile metrics: 1.3K+ contributions, 38+ repositories, 3 products shipping, 6 core technologies" src="./assets/metrics-neon.svg" width="100%">
+
+## `// ACTIVE PRODUCTS`
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="./assets/products/studilapse.webp" alt="Studilapse neon study room" width="100%">
+      <h3>01 // STUDILAPSE</h3>
+      <p><code>● SHIPPING</code></p>
+      <p>Focused study rooms, routines, visible progress, and playful spatial experiences.</p>
+      <p><code>Flutter</code> <code>Dart</code> <code>3D</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="./assets/products/privatenum.webp" alt="PrivateNum neon security shield" width="100%">
+      <h3>02 // PRIVATENUM</h3>
+      <p><code>● SHIPPING</code></p>
+      <p>Privacy-first mobile communication designed around safer, resilient flows.</p>
+      <p><code>TypeScript</code> <code>React Native</code> <code>Realtime</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="./assets/products/pixelport.webp" alt="PixelPort neon device portal" width="100%">
+      <h3>03 // PIXELPORT</h3>
+      <p><code>● SHIPPING</code></p>
+      <p>Fast device pairing and direct sharing through short, frictionless interactions.</p>
+      <p><code>JavaScript</code> <code>WebRTC</code> <code>Mobile</code></p>
+    </td>
+  </tr>
+</table>
+
+## `// SIGNAL STACK`
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,flutter,react,threejs,supabase,docker&theme=dark" alt="TypeScript, Flutter, React, Three.js, Supabase, and Docker" height="56">
+</div>
+
+<br>
+
+| CHANNEL | CAPABILITY | OPERATING PRINCIPLE |
+| :-- | :-- | :-- |
+| `MOBILE` | Flutter · React Native | Build the real user flow before polishing the abstraction |
+| `REALTIME` | WebRTC · Supabase | Make connection, recovery, and failure states visible |
+| `SPATIAL` | Three.js · Interactive 3D | Keep motion purposeful and performance measurable |
+| `RELEASE` | Android · Docker · CI | Separate local proof from actual release readiness |
+
+## `// CONTRIBUTION SIGNAL`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fsnabajura/fsnabajura/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fsnabajura/fsnabajura/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/fsnabajura/fsnabajura/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
 <br>
 
 <div align="center">
-  <strong>Building useful products from the first sketch to the shipped release.</strong>
-  <br>
-  <sub>Mobile apps · Realtime systems · 3D experiences</sub>
-</div>
-
-<br>
-
-## Currently shipping
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>◫ Studilapse</h3>
-      <p>A focused study experience built around rooms, routines, and visible progress.</p>
-      <sub><code>Flutter</code> <code>Dart</code> <code>Mobile</code></sub>
-    </td>
-    <td width="33%" valign="top">
-      <h3>▣ PrivateNum</h3>
-      <p>A privacy-first mobile product designed for safer communication.</p>
-      <sub><code>TypeScript</code> <code>React Native</code> <code>Realtime</code></sub>
-    </td>
-    <td width="33%" valign="top">
-      <h3>◇ PixelPort</h3>
-      <p>A direct sharing experience connecting devices through short, simple flows.</p>
-      <sub><code>JavaScript</code> <code>WebRTC</code> <code>Mobile</code></sub>
-    </td>
-  </tr>
-</table>
-
-## Selected work
-
-|  | Product | What I care about |
-| :-- | :-- | :-- |
-| `01` | **Studilapse** | Calm interaction design, reliable study sessions, and playful spatial experiences |
-| `02` | **PrivateNum** | Privacy, secure communication flows, and production-ready mobile delivery |
-| `03` | **PixelPort** | Fast device pairing, resilient realtime connections, and frictionless sharing |
-| `04` | **3D Experiments** | Three.js scenes, interactive tools, and browser-based spatial interfaces |
-
-## Toolkit
-
-`TypeScript` &nbsp; `Flutter` &nbsp; `React Native` &nbsp; `Three.js` &nbsp; `Supabase` &nbsp; `Docker`
-
-## How I build
-
-- **Product first** — start with the user flow, then choose the smallest reliable system.
-- **End to end** — connect interface, runtime, backend, release checks, and operations.
-- **Ship and learn** — validate in the real viewport and keep release readiness explicit.
-
-<br>
-
-<div align="center">
-  <sub>BUILD / SHIP / LEARN / REPEAT</sub>
+  <code>BUILD</code> ◈ <code>SHIP</code> ◈ <code>LEARN</code> ◈ <code>REPEAT</code>
+  <br><br>
+  <sub>TRANSMISSION FROM SEOUL · PRODUCT SYSTEMS ONLINE</sub>
 </div>
